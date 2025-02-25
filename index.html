@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimonSaysGame</title>
+    <title>Simon Says Game</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     
     <h1>Simon Says Game</h1>
     <h2>Press any Key to start the game</h2>
     <h3>Max score: 0</h3>
+
     <div class="key-container">
         <div class="lineone">
             <div class="key red" id="red">1</div>
@@ -19,9 +19,13 @@
         </div>
         <div class="lineone">
             <div class="key blue" id="blue">2</div>
-            <div class="key green" id="green">4</div>  <!-- Fixed ID -->
+            <div class="key green" id="green">4</div>  
         </div>
-    </div>    
+    </div> 
+
+    <!-- Siren sound -->
+    <audio id="siren" src="siren.mp3"></audio>
+
     <script src="script.js"></script>
 </body>
 </html>
