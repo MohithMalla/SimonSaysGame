@@ -71,7 +71,7 @@ function checkAns(idx) {
 
         setTimeout(() => {
             body.style.backgroundColor = "#1e1e1e";
-        }, 800);
+        }, 1500); // Increased duration from 800ms to 1500ms
 
         reset();
         return;
